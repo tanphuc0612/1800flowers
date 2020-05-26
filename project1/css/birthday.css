@@ -1,0 +1,351 @@
+﻿
+/*birthday flowers caption*/
+#birthday-flowers-caption-header{
+    text-align:center;
+    border-right:lightgray solid 2px;
+}
+#birthday-flowers-caption-header h4{
+    font-weight:600;
+}
+#birthday-flowers-caption-content a {
+    text-decoration: underline;
+    color: #5e3987;
+}
+#birthday-flowers-caption-content span {
+    text-decoration: underline;
+    color: #5e3987;
+    cursor:pointer;
+}
+
+/*birthday-top-picks*/
+#birthday-top-picks{
+    margin-top:60px;
+    text-align:center;
+}
+#birthday-top-picks img{
+    display:inline-block;
+    margin-top:-20px;
+}
+    #birthday-top-picks p {
+        display: inline-block;
+        font-size: 25px;
+        margin: -12px 0px 0 5px;
+    }
+
+    .birthday-item-main{
+        height:100%;
+        width:100%;
+    }
+    .pick{
+        position:absolute;
+    }
+#birthday-top-picks-list{
+    position:relative;
+    margin-top:20px;
+}
+    #birthday-top-picks-list a{
+        color:black;
+        font-weight:600;
+        text-decoration:none;
+    }
+    .transport {
+        width: 160px;
+    }
+.d3 {
+    float: left;
+    width: 25px;
+}
+
+/*sort*/
+#sort-filter {
+    margin-right: 50px;
+    float: right;
+    width: 9%;
+}
+    #sort-filter button {
+        width: 110%;
+        border: solid 1px #dcdcdc;
+    }
+#birthday-item-sort {
+    margin-top: 70px;
+}
+#birthday-item-sort a{
+    float:left;
+    color:#5e3987;
+    cursor:pointer;
+    text-decoration:underline;
+}
+#birthday-item-sort button{
+    padding:5px 8px;
+    color:#5e3987;
+}
+#sort-menu{
+    width:400px;
+    z-index:1;
+    position:absolute;
+    border:solid lightgray 1px;
+    margin-left:1100px;
+    box-shadow:5px 5px lightgray;
+}
+.sort {
+    padding: 20px 20px;
+    background-color: white;
+}
+    .sort span {
+        font-size: 16px;
+        color: #757575;
+        font-weight:600;
+    }
+    .sort button {
+        border: none;
+        padding: 15px 15px;
+        background-color: white;
+    }
+    #button-sort .col-md-4{
+        margin-left:-20px !important;
+    }
+    #button-sort,button-sort-mobile{
+        margin-left:5px;
+        width:410px;
+        font-weight:600;
+     }
+    #submit-sort, #submit-sort-mobile{
+        width:100%;
+        padding:8px;
+        border:solid 1px lightgray;
+        border-radius:5px;
+        background-color:white;
+        color:lightgray;
+    }
+.sort p {
+    font-weight: 600;
+}
+.flatRoundedCheckbox {
+    width: 40px;
+    height: 15px;
+    position: relative;
+}
+    .flatRoundedCheckbox div {
+        width: 100%;
+        height: 100%;
+        background: #d3d3d3;
+        border-radius: 50px;
+        position: relative;
+        top: -20px;
+        left:-5px;
+    }
+.flatRoundedCheckbox label {
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+    cursor: pointer;
+    position: absolute;
+    top: 0px;
+    z-index: 1;
+    left: -5px;
+    background: #FFF;
+    border:solid lightgray 1px;
+}
+#checkbox-1 input[type=checkbox]:checked ~ div {
+    background: #b29cc5;
+}
+#checkbox-1 input[type=checkbox]:checked ~ label {
+    left: 20px;
+    background-color:#5e3987;
+}
+#checkbox-2 input[type=checkbox]:checked ~ div {
+    background: #b29cc5;
+}
+#checkbox-3 input[type=checkbox]:checked ~ label {
+    left: 20px;
+    background-color: #5e3987;
+}
+#checkbox-3 input[type=checkbox]:checked ~ div {
+    background: #b29cc5;
+}
+
+#checkbox-4 input[type=checkbox]:checked ~ label {
+    left: 20px;
+    background-color: #5e3987;
+}
+#checkbox-4 input[type=checkbox]:checked ~ div {
+    background: #b29cc5;
+}
+
+#checkbox-2 input[type=checkbox]:checked ~ label {
+    left: 20px;
+    background-color: #5e3987;
+}
+/*show-more-local-products*/
+#show-more-local-products{
+    background-color:black;
+    color:white;
+    padding:10px 15px;
+}
+#show-more-local-products select{
+    width:100%;
+    color:black;
+    height:35px;
+    font-size:16px;
+}
+    #show-more-local-products input {
+        width: 100%;
+        color: black;
+        padding: 5px;
+    }
+#show-more-local-products p{
+    font-size:10px;
+}
+    #show-more-local-products button {
+        background-color: #2ac670;
+        width:100%;
+        border:none;
+        border-radius:3px;
+        padding:7px;
+    }
+/*birthday-menu-left*/
+#left-main{
+    margin-top:10px;
+    width:21%;
+}
+.birthday-menu-left {
+    border: solid 1px;
+    margin-top: 20px;
+    padding: 10px 15px;
+}
+.birthday-menu-left a{
+    color:black;
+    display:block;
+    margin-top:5px;
+}
+    .birthday-menu-left a:hover{
+        color:#5e3987;
+    }
+    .birthday-menu-left h4 {
+        font-weight: 600;
+        font-size: 16px;
+    }
+/*left-main-img*/
+#left-main-img img{
+    margin-top:20px;
+    width:100%;
+}
+/*main-list-item*/
+#main-list-item{
+    margin-top:10px;
+}
+    #main-list-item div div{
+        overflow:hidden;
+    }
+    #main-list-item a {
+        color: black;
+        text-decoration: none;
+        font-weight: 600;
+    }
+#main-list-item .birthday-item-main{
+    height: 110%;
+    width: 110%;
+}
+@media screen and (max-width:900px) {
+    #main-list-item .birthday-item-main {
+        height:100%;
+        width:110%;
+    }
+    #ship-mobile{
+        margin-bottom:10px;
+    }
+    #left-main{
+        width:100%;
+    }
+}
+#main-list-item p{
+    font-size:15px;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+}
+.sale-item-price strike {
+    color: #ff004a !important;
+}
+.sale-item-price{
+    color: #7ac86d;
+}
+/*back to the top*/
+#back-to-top{
+    text-align:center;
+    margin-top:20px;
+}
+#arrow-up{
+    margin-left:50px;
+}
+#arrow-up span{
+    color:#5e3987;
+    font-size:45px;
+}
+#arrow-up p{
+    color:#5e3987;
+    margin-top:10px;
+    text-decoration:underline;
+}
+/*footer banner*/
+#footer-best-sell-banner img{
+    width:100%;
+    margin-bottom:40px;
+}
+/*more-about-birthday-flower*/
+#more-about-birthday-flowers h3 {
+    font-weight: 600;
+}
+#more-about-birthday-flowers a{
+    color:#5e3987;
+    text-decoration:underline;
+}
+#frequently{
+    border-top:black solid 1px;
+    padding-top:30px;
+    margin-top:50px;
+}
+#frequently h5{
+    margin-top:15px;
+    margin-bottom:15px;
+}
+@media screen and (max-width:900px) {
+    .caption-footer div{
+        margin-bottom: 20px;
+    }
+}
+/*mobile sort*/
+#sort-mobile{
+    margin-bottom:10px;
+    margin-top:10px;
+}
+#sort-mobile span{
+    margin-right:20px;
+    font-weight:600;
+}
+#sort-mobile
+{
+    color:#5e3987;
+    margin-left:30px;
+    z-index:1;
+}
+
+#background-sort-menu-mobile {
+    height: 100vh;
+    width:110vw;
+    position:fixed;
+    top:0;
+    z-index: 1;
+    background-color: rgba(0,0,0,0.5);
+}
+#sort-menu-mobile{
+    height:320px;
+    width:105vw;
+    z-index:2;
+    position:fixed;
+    bottom:0;
+}
